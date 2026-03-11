@@ -1,6 +1,6 @@
 {
   "name": "@kagal/cross-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Cross-platform shell conditions and file tests",
   "license": "MIT",
