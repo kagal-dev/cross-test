@@ -20,4 +20,4 @@ jobs:
           node-version: '22'
       - run: pnpm install --frozen-lockfile
       - name: Publish to NPM
-        run: pnpm publish --access public --provenance
+        run: pnpm publish --access public --provenance --no-git-checks
