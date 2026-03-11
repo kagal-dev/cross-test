@@ -18,3 +18,5 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Prepack
         run: pnpm prepack
+      - name: Publish
+        run: pnpm pkg-pr-new publish --package-manager=pnpm --pnpm

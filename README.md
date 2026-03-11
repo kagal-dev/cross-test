@@ -24,6 +24,8 @@ Standard shell conditions are not portable:
 - ⚡ **ESM-Native:** Built for the modern Node.js ecosystem.
 - 🔧 **Internal Variable Expansion:** Supports `$VAR` and `${VAR}` using `process.env`.
 - 🧠 **Smart Logic:** Full support for `!`, `-a` (AND), `-o` (OR), and `( )` grouping.
+- 🛡️ **Provenance:** Published with OIDC trusted publishing
+  and SLSA provenance attestation.
 
 ---
 
@@ -83,6 +85,13 @@ Variables (`$VAR`, `${VAR}`) are expanded from
 `process.env` before parsing.
 
 ---
+
+## 🔒 Security
+
+This package is published using **OIDC trusted publishing**
+and includes a verifiable **SLSA provenance** attestation.
+You can verify that the code in the npm package matches the
+source code in the GitHub repository.
 
 ## 📄 License
 

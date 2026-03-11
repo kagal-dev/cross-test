@@ -20,7 +20,7 @@
     "lint": "eslint --fix .",
     "lint:check": "eslint .",
     "precommit": "run-s lint typecheck build test",
-    "prepack": "run-s lint:check typecheck build test",
+    "prepack": "eslint --fix package.json && run-s lint:check typecheck build test",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
@@ -30,6 +30,7 @@
     "@types/node": "^20.19.37",
     "eslint": "~9.30.1",
     "npm-run-all2": "^8.0.4",
+    "pkg-pr-new": "^0.0.65",
     "tsup": "^8.5.1",
     "typescript": "~5.9.3",
     "vitest": "^4.0.18"
@@ -39,6 +40,7 @@
   },
   "packageManager": "pnpm@10.32.1+sha512.a706938f0e89ac1456b6563eab4edf1d1faf3368d1191fc5c59790e96dc918e4456ab2e67d613de1043d2e8c81f87303e6b40d4ffeca9df15ef1ad567348f2be",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   }
 }
