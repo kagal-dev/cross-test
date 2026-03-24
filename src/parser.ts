@@ -63,7 +63,7 @@ export class Parser {
   private tokens: string[];
 
   constructor(tokens: string[]) {
-    this.tokens = tokens.map(t => expand(t));
+    this.tokens = tokens.map((t) => expand(t));
   }
 
   parse(): boolean {
