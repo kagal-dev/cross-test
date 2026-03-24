@@ -22,6 +22,7 @@
     "precommit": "run-s lint typecheck build test",
     "prepack": "eslint --fix package.json && run-s lint:check typecheck build test",
     "test": "vitest run",
+    "test:compat": "node src/__tests__/compat.mjs",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
   },
