@@ -1,13 +1,22 @@
 {
   "name": "@kagal/cross-test",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "description": "Cross-platform shell conditions and file tests",
   "license": "MIT",
+  "homepage": "https://github.com/kagal-dev/cross-test#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kagal-dev/cross-test.git"
+    "url": "git+https://github.com/kagal-dev/cross-test.git"
   },
+  "bugs": "https://github.com/kagal-dev/cross-test/issues",
+  "keywords": [
+    "cli",
+    "cross-platform",
+    "file-test",
+    "posix",
+    "shell"
+  ],
   "bin": {
     "cross-test": "./dist/index.mjs"
   },
