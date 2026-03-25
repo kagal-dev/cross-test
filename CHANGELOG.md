@@ -8,7 +8,12 @@ All notable changes to this project will be documented in this file.
 
 - **ci**: Node.js compatibility matrix (18, 20, 22) with standalone
   compat test validating the `engines.node` claim
+- **pkg**: `homepage`, `bugs`, and `keywords` fields for npm discovery
 - **scripts**: `clean` script with `rimraf`
+
+### Fixed
+
+- **pkg**: Use full `git+https://` URL for repository
 
 ### Changed
 
