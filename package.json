@@ -37,7 +37,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@poupe/eslint-config": "~0.9.1",
+    "@poupe/eslint-config": "~0.10.2",
     "@types/node": "^20.19.41",
     "eslint": "~9.39.4",
     "npm-run-all2": "^8.0.4",
